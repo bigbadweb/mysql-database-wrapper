@@ -1,0 +1,26 @@
+{
+  "name": "@bigbadweb/mysql-database-wrapper",
+  "version": "1.0.0",
+  "description": "A simple wrapper for mysql",
+  "main": "database.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigbadweb/mysql-database-wrapper.git"
+  },
+  "keywords": [
+    "mysql",
+    "mariadb",
+    "wrapper",
+    "database",
+    "simple"
+  ],
+  "author": "Matt Stabeler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigbadweb/mysql-database-wrapper/issues"
+  },
+  "homepage": "https://github.com/bigbadweb/mysql-database-wrapper#readme"
+}
