@@ -50,6 +50,10 @@ class DatabaseService {
             })
         })
     }
+
+    delete(sql, params) {
+       return this.update(sql, params);
+    }
     query(sql, params = {}, sqlcallback = qsql => {}) {
         return new Promise((resolve, reject) => {
             let qsql = this._pool.query(sql, params, (err, res) => {
